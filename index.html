@@ -5,6 +5,7 @@
         <meta name="author" content="Radman Siddiki">
         <meta name="http-equiv" content="width: device-width, initial-scale: 1.0">
         <meta name="keywords" content="Snap! Project Embed Player, Snap!, Snayer, Snayer!, Radman Siddiki, R4356th">
+        <meta name="">
         <title>Snayer! - Snap! Project Embed Player</title>
     </head>
     <body>
@@ -14,13 +15,13 @@
           Snayer<i>!</i> is a Snap<i>!</i> embed project player. It lets you view shared Snap<i>!</i> projects without visiting their project pages.
         </div>
         <div id="embed">
-            <input id="Username" required=true placeholder="Username">
-            <input id="Project Name" required=true placeholder="Project Name">
-            <iframe id="project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 src="https://snap.berkeley.edu/embed?project= &user=r4356th&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="480" height="390"></iframe>
+            <form>
+                <input id="Username" required=true placeholder="Username">
+                <input id="Project Name" required=true placeholder="Project Name">
+            <iframe id="project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 src="https://snap.berkeley.edu/embed?project= &user=r4356th&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="500" height="400"></iframe>
+            </form>
         </div>
-        <script>
-            document.getElementById("project").src="https://snap.berkeley.edu/embed?project=" + document.getElementById("Username").value + "&user="+ document.getElementById("Project Name").value + "&showTitle=true&showAuthor=true&editButton=true&pauseButton=true"
-        </script>
+        <script src="main.js"></script>
         
     </body>
     
