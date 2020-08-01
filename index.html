@@ -3,9 +3,9 @@
     <link rel="stylesheet" href="style.css">
     <head>
         <meta name="author" content="Radman Siddiki">
-        <meta name="http-equiv" content="width: device-width, initial-scale: 1.0">
+        <meta name="viewport" content="width: device-width, initial-scale: 1.0">
         <meta name="keywords" content="Snap! Project Embed Player, Snap!, Snayer, Snayer!, Radman Siddiki, R4356th">
-        <meta name="">
+        <meta http-equiv="Cache-Control" content="no-cache">
         <title>Snayer! - Snap! Project Embed Player</title>
     </head>
     <body>
@@ -18,11 +18,10 @@
             <form>
                 <input id="Username" required=true placeholder="Username">
                 <input id="Project Name" required=true placeholder="Project Name">
+                <button onclick="iframeload">Load Project</button>
             <iframe id="project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 src="https://snap.berkeley.edu/embed?project= &user=r4356th&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="500" height="400"></iframe>
             </form>
         </div>
-        <script src="main.js"></script>
-        
+        <script src="main.js"></script>  
     </body>
-    
 </html>
