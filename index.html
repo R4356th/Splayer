@@ -16,11 +16,11 @@
         </div>
         <div id="embed">
             <form>
-                <input id="Username" required=true placeholder="Username">
-                <input id="Project Name" required=true placeholder="Project Name">
-                <button onclick="iframeload">Load Project</button>
-            <iframe id="project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 src="https://snap.berkeley.edu/embed?project= &user=r4356th&showTitle=true&showAuthor=true&editButton=true&pauseButton=true" width="500" height="400"></iframe>
+                <input type="text" id="Username" placeholder="Username">
+                <input type="text" id="Project Name" placeholder="Project Name">
+                <input type="button" value="Load Project" onclick="iframeload()">
             </form>
+            <iframe id="Project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 width="500" height="400"></iframe>
         </div>
         <script src="main.js"></script>  
     </body>
