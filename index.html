@@ -15,10 +15,10 @@
           Splayer<i>!</i> is a Snap<i>!</i> embed project player. It lets you view shared Snap<i>!</i> projects without visiting their project pages.
         </div>
         <div id="embed">
-            <form>
+            <form onsubmit="iframeload();">
                 <input type="text" id="Username" placeholder="Username">
                 <input type="text" id="Project Name" placeholder="Project Name">
-                <input type="button" value="Load Project" onclick="iframeload()">
+                <input type="button" value="Load Project">
             </form>
             <iframe id="Project" allowfullscreen=true allow="geolocation; microphone; camera" frameBorder=0 width="500" height="400"></iframe>
         </div>
