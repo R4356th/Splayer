@@ -1,6 +1,6 @@
 # Splayer
 
-A Snap! project player for browsers and soon to be made available to download for Windows.
+A Snap! project player for browsers.
 
 # Legal
 
